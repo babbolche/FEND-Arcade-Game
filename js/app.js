@@ -56,6 +56,7 @@ Player.prototype.update = function() {
 
     // When player reaches the water
     if (player.y < 20) {
+        alert('You won the game!');
         this.restart();
     }
 };
